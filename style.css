@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Salsa', cursive;
+}
+
+body{
+    background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-seamless-background-pattern-mosaic-of-black-letters-on-white-background-petr-polak.jpg");
+    background-size: cover;
+}
+.search {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    top: 30px;
+}
+
+.search input{
+    height:50px;
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border-color: black;
+}
+
+.search button{
+    margin-left: 10px;
+    height: 50px;
+    width:50px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color:darkgrey;
+    border: none;
+    border-color: black;
+}
+
+
+.error{
+    color: rgb(158, 37, 37);
+    display: none;  
+    font-size: 30px;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
