@@ -1,4 +1,4 @@
-English word dictionary using DOM.
+Word search using DOM.
 Reference:
  Data collection - API - https://dictionaryapi.dev/
  Font - https://fonts.google.com/
